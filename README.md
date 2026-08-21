@@ -65,6 +65,7 @@ zonvoir_interview/
    JWT_SECRET=your_jwt_secret_key_here
    ```
    *Note: If your database password contains special characters like `@`, make sure they are URL-encoded (e.g. `@` becomes `%40`).*
+   *Note: also allow ip for backend from atlas.*
 
 4. **Run Development Server**:
    ```bash
